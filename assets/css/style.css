@@ -104,9 +104,17 @@ h2 {
 #contact .social-links i:hover {
     color: var(--secondary-color);
 }
+
 #contact .table-dark * {
     background-color: transparent;
 }
+
+@media screen and (min-width: 768px) {
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
 /* MD */
 @media screen and (min-width: 768px) {
     #services .card-body {
