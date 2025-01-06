@@ -104,6 +104,9 @@ h2 {
 #contact .social-links i:hover {
     color: var(--secondary-color);
 }
+#contact .table-dark * {
+    background-color: transparent;
+}
 /* MD */
 @media screen and (min-width: 768px) {
     #services .card-body {
