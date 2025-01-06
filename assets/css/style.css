@@ -128,11 +128,12 @@ h2 {
 #contact {
     background-color: var(--primary-color);
     color: white;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 #contact h2 {
     color: white;
+    margin-top: 20px;
 }
 
 #contact .sub-heading-color {
