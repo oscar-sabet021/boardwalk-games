@@ -95,6 +95,9 @@ h2 {
 }
 
 /* HEADER */
+#header .custom-button-outline {
+    margin-bottom: 20px;
+}
 #header .lead {
     font-family: var(--secondary-font);
 }
