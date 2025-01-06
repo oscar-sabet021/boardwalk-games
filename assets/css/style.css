@@ -55,7 +55,8 @@ h2 {
 .custom-button-filled:hover {
     border: 2px solid var(--light-highlight-color);
     background-color: var(--light-highlight-color);
-    color: white;
+    /* color: white; */
+    color: black;
 }
 .custom-button-outline {
     border: 2px solid var(--highlight-color);
