@@ -30,7 +30,7 @@ h3 {
 .container,
 .row {
     border: 2px solid black;
-
+    padding: 0px;
 }
 .col-12 {
     border: 2px solid white;
