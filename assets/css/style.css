@@ -5,14 +5,10 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", sans-serif;
-    --primary-color: #3a2620;
-    /* dark-brown */
-    --secondary-color: #aa9581;
-    /* light-brown */
-    --highlight-color: #416a8e;
-    /* blue */
-    --light-highlight-color: #7a9fc2;
-    /* light-blue */
+    --primary-color: #3a2620; /* dark-brown */
+    --secondary-color: #aa9581; /* light-brown */
+    --highlight-color: #416a8e; /* blue */
+    --light-highlight-color: #7a9fc2; /* light-blue */
 }
 
 /* CUSTON CLASSES */
@@ -67,6 +63,11 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* New Games */
+#new-games .card,
+#old-games .card {
+    border: none;
+}
 /* MD */
 @media screen and (min-width: 768px) {
     #services .card-body {
