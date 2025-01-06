@@ -3,7 +3,10 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", sans-serif;
-    --primary-color: #416a8e; /* blue */
+    --primary-color: #3a2620; /* dark-brown */
+    --secondary-color: #aa9581; /* light-brown */
+    --highlight-color: #416a8e; /* blue */
+    --light-highlight-color: #7a9fc2; /* light-blue */
 }
 
 
@@ -15,5 +18,21 @@ body {
 h1,
 h2,
 h3 {
-    font-family: var(--secondary-font)
+    font-family: var(--secondary-font);
+    /* color: var(--primary-color); */
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
+}
+
+/* TEMP for testing */
+.container,
+.row {
+    border: 2px solid black;
+
+}
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
 }
