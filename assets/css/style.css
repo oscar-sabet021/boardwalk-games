@@ -1,16 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+
 /* VARIABLES */
+
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", sans-serif;
-    --primary-color: #3a2620; /* dark-brown */
-    --secondary-color: #aa9581; /* light-brown */
-    --highlight-color: #416a8e; /* blue */
-    --light-highlight-color: #7a9fc2; /* light-blue */
+    --primary-color: #3a2620;
+    /* dark-brown */
+    --secondary-color: #aa9581;
+    /* light-brown */
+    --highlight-color: #416a8e;
+    /* blue */
+    --light-highlight-color: #7a9fc2;
+    /* light-blue */
+}
+/* CUSTON CLASSES */
+.section {
+    margin: 2rem auto;
 }
 
 
 /* GENERAL */
+
 body {
     font-family: var(--primary-font);
 }
@@ -19,6 +30,7 @@ h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
+    text-transform: uppercase;
     /* color: var(--primary-color); */
 }
 
@@ -26,13 +38,35 @@ h3 {
     color: var(--highlight-color);
 }
 
+
+/* Navbar */
+
+#navbar {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+/* HEADER */
+#header .lead {
+    font-family: var(--secondary-font);
+}
+
+/* #navbar * {
+    color: var(--secondary-color);
+} */
+
+
 /* TEMP for testing */
-.container,
+
+
+/* .container,
 .row {
     border: 2px solid black;
-    padding: 0px;
-}
+    /* padding: 0px; */
+
+
+/* }
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}
+} */
